@@ -1,0 +1,25 @@
+.thumb-image {
+  height: 150px;
+  min-width: 120px;
+}
+.game-head {
+  font-size: 10px;
+}
+.game-para {
+  font-size: 6px;
+}
+li {
+  list-style: none;
+}
+.vcb {
+  display: flex;
+  flex-direction: row;
+}
+.gaming-card {
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  list-style: none;
+}
