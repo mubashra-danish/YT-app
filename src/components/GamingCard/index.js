@@ -6,15 +6,15 @@ const GamingCard = props => {
   const {title, thumbnailUrl, viewCount} = gamingData
   return (
     <li>
-    <Link to={`/videos/${id}`} className="link-item">
-      <div className="gaming-card">
-        <img src={thumbnailUrl} alt="video" className="thumb-image" />
-        <h1 className="game-head">{title}</h1>
-        <div className="vcb">
-          <p className="game-para">{viewCount}</p>
-          <p className="game-para">Watching Worldwide</p>
+      <Link to={`/videos/${id}`} className='link-item'>
+        <div className='gaming-card'>
+          <img src={thumbnailUrl} alt='video' className='thumb-image' />
+          <h1 className='game-head'>{title}</h1>
+          <div className='vcb'>
+            <p className='game-para'>{viewCount}</p>
+            <p className='game-para'>Watching Worldwide</p>
+          </div>
         </div>
-      </div>
       </Link>
     </li>
   )
