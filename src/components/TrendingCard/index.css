@@ -32,8 +32,7 @@
 
 .channel-info {
   display: flex;
-  
-  
+
   margin-bottom: 10px;
   flex-direction: column;
 }
