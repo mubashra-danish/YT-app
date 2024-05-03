@@ -1,9 +1,10 @@
-import React from 'react'
-import './index.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './index.css';
 
 const TrendingCard = props => {
-  const {trendingData} = props
-  const {title, thumbnailUrl, channel, viewCount, publishedAt} = trendingData
+  const { trendingData } = props;
+  const { id, title, thumbnailUrl, channel, viewCount, publishedAt } = trendingData;
 
   return (
     <li>
@@ -13,14 +14,14 @@ const TrendingCard = props => {
           <div className="channel-info">
             <h2 className="title">{title}</h2>
             <p className="channel-name">{channel.name}</p>
-
             <p className="view-count">{viewCount}</p>
             <p className="published-at">{publishedAt}</p>
           </div>
         </div>
       </Link>
     </li>
-  )
-}
+  );
+};
 
-export default TrendingCard
+export default TrendingCard;
+

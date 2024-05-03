@@ -3,7 +3,7 @@ import './index.css'
 
 const GamingCard = props => {
   const {gamingData} = props
-  const {title, thumbnailUrl, viewCount} = gamingData
+  const {id, title, thumbnailUrl, viewCount} = gamingData // Added id variable
   return (
     <li>
       <Link to={`/videos/${id}`} className="link-item">
@@ -19,4 +19,5 @@ const GamingCard = props => {
     </li>
   )
 }
+
 export default GamingCard
